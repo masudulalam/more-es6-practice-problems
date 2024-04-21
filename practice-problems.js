@@ -9,9 +9,15 @@ let evenArray = [];
 // console.log(evenArray);
 
 // using for of loop
-for (const number of oddArray) {
-    const evenNumber = number + 1; 
-    evenArray.push(evenNumber);
-}
-console.log(evenArray);
+// for (const number of oddArray) {
+//     const evenNumber = number + 1; 
+//     evenArray.push(evenNumber);
+// }
+
+
+// using map() method
+const evenArray2 = oddArray.map(number => number + 1);
+console.log(evenArray2);
+
+// console.log(evenArray);
 
