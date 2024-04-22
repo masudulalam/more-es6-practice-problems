@@ -35,3 +35,18 @@ console.log(divisibleByTen);
 // array.find()
 const divisibleByTen2 = array.find(number => number % 10 === 0);
 console.log(divisibleByTen2);
+
+
+// Problem 3:
+
+const instructor = [
+    {name: 'Abdullah', age:30, position: 'Senior'},
+    {name: 'Abdur Rahman', age:28, position: 'Senior'},
+    {name: 'Umama', age:26, position: 'Junior'},
+];
+
+const senior = instructor.filter(object => object.position === 'Senior');
+
+// const firstElement = instructor[2].position;
+
+console.log(senior);
