@@ -26,7 +26,12 @@ const evenArray2 = oddArray.map(number => number + 1);
 
 // Problem 2:
 
+// array.filter()
 const array = [33, 41, 97, 34, 56, 78, 40, 6, 10, 80];
-const divisibleBy10 = array.filter(number => number % 10 === 0);
-console.log(divisibleBy10);
+const divisibleByTen = array.filter(number => number % 10 === 0);
+console.log(divisibleByTen);
 
+
+// array.find()
+const divisibleByTen2 = array.find(number => number % 10 === 0);
+console.log(divisibleByTen2);
