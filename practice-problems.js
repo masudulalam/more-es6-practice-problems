@@ -8,6 +8,7 @@ let evenArray = [];
 // };
 // console.log(evenArray);
 
+
 // using for of loop
 // for (const number of oddArray) {
 //     const evenNumber = number + 1; 
@@ -17,7 +18,15 @@ let evenArray = [];
 
 // using map() method
 const evenArray2 = oddArray.map(number => number + 1);
-console.log(evenArray2);
+// console.log(evenArray2);
 
 // console.log(evenArray);
+
+
+
+// Problem 2:
+
+const array = [33, 41, 97, 34, 56, 78, 40, 6, 10, 80];
+const divisibleBy10 = array.filter(number => number % 10 === 0);
+console.log(divisibleBy10);
 
