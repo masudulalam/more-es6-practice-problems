@@ -50,3 +50,24 @@ const senior = instructor.filter(object => object.position === 'Senior');
 // const firstElement = instructor[2].position;
 
 console.log(senior);
+
+
+
+// Problem 3:
+
+const people = [
+    {name: 'Abdullah', age: 5},
+    {name: 'Abdur Rahman', age: 15},
+    {name: 'Umama', age: 10},
+];
+
+let sumOfAge = 0;
+for (let i = 0; i < people.length; i++) {
+    const age = people[i].age;
+    sumOfAge = sumOfAge + age;
+} 
+console.log(sumOfAge);
+
+
+
+
