@@ -53,7 +53,7 @@ console.log(senior);
 
 
 
-// Problem 3:
+// Problem 4:
 
 const people = [
     {name: 'Abdullah', age: 5},
